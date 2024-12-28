@@ -1,0 +1,76 @@
+.news{
+    margin: 20px;
+}
+.head1 {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Karla", serif;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lexend", serif;
+}
+.first{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.f1 h3{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+.f1 h4{
+    font-size: 18px;
+    
+    font-family: "Karla", serif;
+}
+.f1 p{
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", serif;
+}
+.second{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.s2{
+    margin-left: 20px;
+}
+.s2 h3{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+.s2 h4{
+    font-size: 18px;
+    font-family: "Karla", serif;
+}
+.s2 p{
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", serif;
+}
+.third{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.t h3{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+.t p{
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", serif;
+}
