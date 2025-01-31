@@ -13,15 +13,17 @@ function fun(){
 
 
 let v = 0
+
 function inc(){
     
-      document.querySelector('#value').innerHTML = v+5
+      document.querySelector('#value').innerHTML = v+=5
    
  }
 
  function dec(){
-    
-    document.querySelector('#value').innerHTML = v-5
+    if(v>0){
+    document.querySelector('#value').innerHTML = v-=5
+ }
      
  }
 
