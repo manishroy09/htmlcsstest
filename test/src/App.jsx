@@ -15,9 +15,10 @@ function App() {
     <>
    
       <Routes>
-        <Route path='/' element={<Navbar/>}/>
+        <Route path="/" element={<Navbar/>}>
         <Route index element={<Home/>}/>
         <Route path='/Product' element={<Product/>}/>
+        </Route>
       </Routes>
     </>
   )

@@ -22,7 +22,9 @@ const Product = () => {
 
         </div>
     </div>
-    <button onClick={()=>setCount(count+1)}>+</button> <h1>{count}</h1>  <button onClick={desc}>-</button>
+    <button onClick={()=>setCount(count+1)}>+</button>
+     <h1>{count}</h1> 
+    <button onClick={desc}>-</button>
     
     
     </>
