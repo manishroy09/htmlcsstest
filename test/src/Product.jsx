@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { countData } from './main';
 
 
 const Product = () => {
@@ -22,10 +23,11 @@ const Product = () => {
 
         </div>
     </div>
+    <div className="button">
     <button onClick={()=>setCount(count+1)}>+</button>
      <h1>{count}</h1> 
     <button onClick={desc}>-</button>
-    
+    </div>
     
     </>
   )
